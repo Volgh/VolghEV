@@ -145,3 +145,32 @@ p {
 	height: 300px;
 	width: 300px;
 }
+.foto a {
+	position: relative;
+	display: block;
+}
+.foto a:hover .window_grey {
+	display: block;
+	width: 300px;
+	height: 300px;
+	border-radius: 7px;
+	background-color: rgba(0, 0, 0, 0.7);
+	z-index: 2;
+	font-family: GB;
+	font-size: 16px;
+	color: white;
+	padding-bottom: 10px;
+	line-height: 30px;	
+}
+.window_grey p {
+	color: white;
+	padding-top: 10px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.window_grey {
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px
+}
