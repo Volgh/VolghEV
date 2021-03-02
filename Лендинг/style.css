@@ -1,0 +1,172 @@
+@font-face {
+	font-family: 'GEB';
+	src: url('fonts/GilroyExtraBold.woff') format('woff');
+	font-style: normal; 
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'GB';
+	src: url('fonts/Gilroy-Bold.woff') format('woff');
+	font-style: normal; 
+	font-weight: normal;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color:  #e8e6db;
+}
+.content { 
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+.hair {
+	width: 100%;
+	height: 90px;
+	background-color: #710193;
+}
+.hairH {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.logo_1 {
+	height: 29px;
+	width: 29px;
+	background-image: url('img/logo_in_black1.png');
+}
+.hair__name {
+	height: 100%;
+	color: white;
+	font-family: GB;
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	line-height: 23px;
+}
+.curs { 
+	height: 100%;
+	color: white;
+	font-family: GB;
+	font-size: 18px;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hair a:hover {
+	text-decoration: underline;
+	/*color: black;*/
+}
+.boss {
+	width: 100%;
+	height: 90px;
+	background-color: #710193;
+}
+.bottoms {
+	margin-top: 30px;
+	width: 100%;
+	background-color: #710193;
+}
+.bot {
+	padding: 20px 100px;
+	/*height: 120px;*/
+	display: flex;
+	justify-content: center;
+}
+.bot a {
+	font-family: GB;
+	font-size: 16px;
+	color: white;
+	text-decoration: none;
+}
+.bot a:hover {
+	font-family: GB;
+	font-size: 16px;
+	color: black;
+}
+h2 {
+	height: 100%;
+	color: white;
+	font-family: GEB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.main {
+	font-family: GB;
+	font-size: 20px;
+	color: #303030;
+	padding-left: 15px;
+	width: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.main h3{
+	padding: 20px 0;
+	font-family: GEB;
+	color: black;
+}
+.about h1 {
+	font-family: GEB;
+	color: black;
+	padding: 20px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about {
+	font-family: GB;
+	font-size: 20px;
+	color: #303030;
+}
+.about h2 {
+	font-family: GEB;
+	color: black;
+	padding: 20px 0;
+}
+.border {
+	padding: 10px 25px;
+	background: white;
+	border-radius: 30px;
+}
+ul {
+	padding: 0 50px;
+}
+.stack {
+	display: flex;
+	justify-content: space-around;
+}
+.foto {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 300px;
+}
+.foto p {
+	margin: 0 auto;
+}
+.num {
+	line-height: 35px;
+	text-decoration: line-through;
+}
+.bot a {
+	padding: 10px 0;
+}
+p {
+font-family: GB;
+color: #303030;
+font-size: 16; 
+}
+.bot p {
+	color: white;
+}
+.bot p:hover {
+	text-decoration: underline;
+}
